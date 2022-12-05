@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+   <head>
+      <meta charset="utf-8">
+      <script src="main.js"></script>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+   <body>
+      <nav class="nav">
+         <input type="checkbox" id="click">
+         <label for="click" class="menu-btn">
+         <i class="fas fa-bars"></i>
+         </label>
+         <ul>
+            <li class="link"><a href="#kodu" class="active">Kodu</a></li>
+            <li class="link"><a href="#distrod">Distrod</a></li>
+            <li class="link"><a href="#lehest">Lehest</a></li>
+            <li class="link"><a href="#kontakt">Kontakt</a></li>
+            <li class="link"><a onclick="darkMode()">Darkmode</a></li>
+            <script src='dark.js'></script>
+            
+         </ul>
+      </nav>
+      <sisu>
+         <section id="kodu">
+            <div class="content">
+               <h1>DistroWiki</h1>
+               <p>Sinu teekond linuxisse!</p>
+            </div>
+            <div class="image">
+               <img src="assets/Icon.png">
+            </div>
+         </section>
+         <section id="distrod">
+          <h1 class="title">Distrod</h1>
+            <div class="cardbg">
+               <a href="html/Distrod/mint.html"><div class="card">
+                  <img src="assets/mint_logo.png">
+                  <h1>Linux Mint</h1>
+               </div></a>
+               <a href="html/Distrod/debian.html"><div class="card">
+                  <img src="assets/debian_logo.png">
+                  <h1>Debian</h1>
+               </div></a>
+               <a href="html/Distrod/pop_os.html"><div class="card">
+                  <img src="assets/pop_logo.png">
+                  <h1>Pop!_OS</h1>
+               </div></a>
+               <a href="html/Distrod/arch.html"><div class="card">
+                  <img src="assets/arch_logo.png">
+                  <h1>Arch Linux</h1>
+               </div></a>
+               <div class="card">
+                <img src="assets/kali_logo.png">
+                  <h1>Kali Linux</h1>
+               </div>
+               <div class="card">
+                  <img src="assets/debian_logo.png">
+                  <h1>Debian</h1>
+               </div>
+              </div>
+         </section>
+         <section id="lehest">
+            <h1 class="title">Lehest</h1>
+            <p class="subtitle">Oled veebilehel, mis tutvustab kuute erinevat Linuxi distributsiooni. Veebileht koosneb pealehest ja kuuest alamlehest, millest iga leht sisaldab lühikest distributsiooni tutvustust, pilti töölauast, lühikest installimisjuhist, distributsiooni plusse ja miinuseid. Allikas ja ühtlasi ka viide lisalugemisele on lehe lõpus.
+
+              Veebileht on abiks peamiselt algajatele, kes pole enne Linuxi maailmaga kokku puutunud kuigi palju.</p>
+         </section>
+         <section id="kontakt">
+            <h1 class="title">Kontakt</h1>
+            <p class="subtitle">Oleme valmis abi pakkuma ja vajadusel küsimustele vastama :)</p>
+            <div class="cardbg" style="text-decoration:none">
+               <a href="https://www.facebook.com/mattias.kimst" target=”_blank”><div class="card">
+                  <img src="assets/mattias.png">
+                  <h1>Mattias Kimst</h1>
+               </div></a>
+               <a href="https://www.facebook.com/siim.nigul.94" target=”_blank”><div class="card">
+                <img src="assets/siim.png">
+                  <h1>Siim Nigul</h1>
+               </div></a>
+               <a href="https://www.facebook.com/Lillipuu" target=”_blank”><div class="card">
+                  <img src="assets/andreas.png">
+                    <h1>Andreas Lillipuu</h1>
+                 </div></a>
+              </div>
+         </section>
+      </sisu>
+   </body>
+</html>
