@@ -259,4 +259,15 @@ a:hover {
 a:active {
   text-decoration: none;
 }
-
+.dark-mode {
+  background-color: gray;
+  color: white;
+}
+::-moz-selection {
+  color: #fc6b3e;
+ background: #ffffff;
+}
+::selection {
+  color: #fc6b3e;
+ background: #ffffff;
+}
