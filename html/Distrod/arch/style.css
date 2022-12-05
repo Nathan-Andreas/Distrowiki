@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/* Sidebar start here  */
+.sidepanel{
+    padding-left: 20px;
+    padding-right: 20px;
+    border-right: 2px solid rgb(95, 95, 95);
+    color: white;
+    text-align: center;
+    position: fixed;
+    background: #fc6b3e;
+    width: 350px;
+    height: 100%;
+    
+}
+.sidepanel img{
+    padding-top: 50px;
+    
+}
+
+/* Sidebar end Here  */
+
+/* Main Content Section Start Here  */
+
+.main{
+    margin-left: 200px;
+    padding: 5px;
+}
+
+.main h2{
+    margin-top: 20px;
+}
