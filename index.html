@@ -7,6 +7,10 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <style>
+         .dark-mode {
+            background-color: gray;
+            color: white;
+         }
          ::-moz-selection {
             color: #fc6b3e;
            background: #ffffff;
@@ -28,6 +32,12 @@
             <li class="link"><a href="#distrod">Distrod</a></li>
             <li class="link"><a href="#lehest">Lehest</a></li>
             <li class="link"><a href="#kontakt">Kontakt</a></li>
+            <li class="link"><button onclick="darkMode()">Darkmode</button></li>
+            <script>function darkMode() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+             }
+            </script>
          </ul>
       </nav>
       <sisu>
