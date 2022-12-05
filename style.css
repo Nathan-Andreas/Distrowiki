@@ -175,11 +175,14 @@ section#kontakt {
 
 }
 section#kontakt .cardbg {
+  scroll-behavior:unset;
+  scroll-snap-align: start;
   align-items: flex-start;
 	display: grid;
 	grid-gap: 16px;
 	grid-template-columns: repeat(auto-fit, 300px);
 	justify-content: center;
+  margin-bottom: 300px;
 
 }
 section#kontakt .cardbg .card{
