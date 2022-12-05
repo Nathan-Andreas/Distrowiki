@@ -101,31 +101,76 @@ input[type="checkbox"]{
     color: #fc6b3e;
   }
 }
+
+.card {
+	background-color: rgb(255, 255, 255);
+	border-radius: 15px;
+	color: rgb(0, 0, 0);
+	padding: 16px 0 16px;
+	text-align: center;
+}
+
+.fas {
+	font-size: 50px;
+}
 section {
+  padding-top: 80px;
   display: flex;
+  padding-left: 30px;
+  padding-left: 30px;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  text-align: center;
   width: 100%;
   height: 100vh;
   scroll-snap-align: center;
 }
 
+
 section#kodu {
-  background-color: blue;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap:1.5rem;
+  padding-bottom: 80px;
+  
+}
+
+
+section#kodu .content{
+}
+section#kodu .content .pealkiri {
+  color: white;
+  font-size: 5rem;
+}
+section#kodu .content .alapealkiri {
+  color: white;
+  font-size: 1.5rem;
+}
+section#kodu .image {
+  
+}
+section#kodu .image img{
+  width: 100%;
   
 }
 
 section#distrod {
-  background-color: green;
-  
+  scroll-behavior:unset;
+  scroll-snap-type:none
 }
+section#distrod .cardbg{
+  scroll-behavior:unset;
+  scroll-snap-type:none
+  align-items: start;
+	display: grid;
+	grid-gap: 16px;
+	grid-template-columns: repeat(auto-fit, 300px);
+	justify-content: center;
+}
+
 section#lehest {
-  background-color: yellow;
   
 }
 
 section#kontakt {
-  background-color: red;
 }
