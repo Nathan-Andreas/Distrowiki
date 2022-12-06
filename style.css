@@ -5,6 +5,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   scroll-snap-type: y mandatory;
+  text-decoration: none;
 } 
 body {
   font-family: 'Roboto', sans-serif;
@@ -148,7 +149,7 @@ section#kodu .image {
   
 }
 section#kodu .image img{
-  width: 100%;
+  width: 80%;
   
 }
 
@@ -244,25 +245,15 @@ section#kontakt .cardbg .card img{
   text-align: center;
 }
 
-a:link {
-  text-decoration: none;
-}
 
-a:visited {
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-a:active {
-  text-decoration: none;
-}
 .dark-mode {
-  background-color: gray;
+  background-color: #1b1919;
   color: white;
 }
+.dark-mode nav {
+  background-color: #1b1919;
+}
+
 ::-moz-selection {
   color: #fc6b3e;
  background: #ffffff;
