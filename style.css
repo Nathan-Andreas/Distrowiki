@@ -181,7 +181,7 @@ section#lehest {
 }
 section#lehest .subtitle{
   max-width: 80%;
-  min-width: 90;
+  min-width: 90px;
   align-items: center;
   text-align: center;
 }
@@ -225,7 +225,7 @@ section#kontakt .cardbg .card img{
 }
 .card:hover{
   
-  transform: scale(105%);
+  transform: scale(1.05);
   background-color: #e2e2e2;
   color: #ff3c00;
   

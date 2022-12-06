@@ -6,3 +6,5 @@ function vajutus() {
       x.className = "nav";
     }
   }
+
+
